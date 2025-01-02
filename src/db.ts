@@ -1,5 +1,5 @@
 import mongoose, {model, Schema} from "mongoose";
-
+import {DB_URL} from "./config";
 mongoose.connect("mongodb+srv://jhaadarsh234:mlM1GwBykUojesB8@celebralsync.jq1fj.mongodb.net/MindStash");
 
 const UserSchema = new Schema({
